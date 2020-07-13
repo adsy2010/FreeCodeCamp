@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body {
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    background: url("../images/railway.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0;
+}
+input, select,textarea{
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+    /*margin: 12px;*/
+    margin-bottom: 12px;
+    max-height: 80px;
+    max-width: 100%;
+
+}
+fieldset{
+     border-radius: 15px;
+     box-shadow: rgba(128, 128, 128, 0.5) 3px 3px 3px 3px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+ }
+legend {
+    font-size: 30px;
+}
+label {
+    font-size: 30px;
+}
+hr{
+     border: dashed rgba(255, 165, 0, 0.5);
+ }
+
+#main{
+    display: block;
+    position: relative;
+    background-color: rgba(255, 233, 184, 0.95);
+    top: 40px;
+    bottom: 40px;
+    padding: 35px;
+    margin-bottom: 40px;
+    border: 3px black solid;
+    border-radius: 22px;
+    box-shadow: 0px 0px 23px 23px rgba(184, 115, 51, 0.72);
+}
+#dropdown{
+    width: 100%;
+    border: 3px black solid;
+    border-radius: 22px;
+    padding: 3px;
+    font-size: 16px;
+    box-shadow: rgba(128, 128, 128, 0.5) 3px 3px 3px 3px;
+}
+#submit {
+    padding: 15px;
+    background-color: deepskyblue;
+    color: black;
+    font-weight: bold;
+}
+
+.checkboxFlex{
+    display:flex;
+    flex-direction: column;
+}
+.container {
+    position: relative;
+    display: block;
+    max-width: 768px;
+    margin:0 auto;
+}
+
+[type=text], [type=number], [type=email], textarea{
+    border: 3px solid slategray;
+    border-radius: 10px;
+    padding: 6px;
+    width: 200px;
+    box-shadow: rgba(128, 128, 128, 0.5) 3px 3px 3px 3px;
+}
+[type=checkbox], [type=radio]
+{
+    transform: scale(2.0);
+}
+
+
+@media screen and (max-width: 768px){
+    #main {
+        margin: 0 auto;
+    }
+}
+

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body {
+    font-family: 'Patua One', cursive;
+
+    color: #c1c1c1;
+    background: url("https://www.f1-fansite.com/wp-content/uploads/2002/03/auz-02-03-03-02-1280.jpg") center fixed;
+    background-size: cover;
+}
+
+a {
+    color: #01afaf;
+}
+p{
+    font-size: 18px;
+}
+header{
+    background-color: hsla(0, 100%, 18%, 0.9);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+hr{
+    border: hsla(0,100%, 50%, 0.9) dashed 3px;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+    margin: 0 auto;
+    border: hsla(0,100%, 50%, 0.9) solid 3px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 5px hsla(0,100%, 50%, 0.9);
+}
+#main {
+    background-color: hsla(0, 100%, 18%, 0.9);
+    margin: 0 auto;
+    padding: 40px;
+    line-height: 25px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#title {
+    text-align:  center;
+}
+
+#img-div {
+
+}
+
+#img-div figure {
+    text-align: center;
+}
+
+#image {
+    margin: 0 auto;
+    border-radius: 25%;
+    border: darkred dashed 2px;
+    max-width: 100%;
+    display:block;
+}
