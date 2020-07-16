@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
     font-family: 'Patua One', cursive;
-    background-color: #00749a;
+    background: url("https://image.freepik.com/free-vector/abstract-blue-bokeh-background-light-effect_29865-297.jpg") center fixed;
+    background-size: cover;
 }
-
-#wrapper{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 header {
     position: relative;
     width: 100%;
 }
-
+hr{
+    margin: 30px 0;
+}
+#wrapper{
+    margin: 0 auto;
+    max-width: 768px;
+    background-color: rgba(240, 248, 255, 0.75);
+    padding: 25px;
+}
 #nav-bar {
     position: fixed;
     right: 10%;
@@ -44,8 +48,73 @@ header {
 
 @media screen and (max-width: 768px) {
     body{background-color:red;}
+    .price-box {
+        width: 100%;
+    }
 }
 
 #video {
     max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pricing {
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex:auto;
+}
+.price-box {
+    display:flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    flex-direction: column;
+    min-width: 200px;
+    text-align: center;
+    border: black thin solid;
+    border-radius: 18px;
+    margin: 15px;
+    box-shadow: rgba(255, 196, 150, 0.6) 0 0 5px 10px;
+}
+.price-box div>p {
+    padding: 0 10px;
+}
+.price-box-title {
+    padding: 6px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom: #323232 dashed 1px;
+    font-family: 'Roboto', sans-serif;
+}
+.gold-tier{
+    background-color: gold;
+}
+.silver-tier{
+    background-color: silver;
+}
+.bronze-tier{
+    background-color: #cd7f32;
+}
+
+button{
+    background-color: gold;
+    border: black solid 1px;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+button:hover {
+    background-color: hsl(51, 100%, 75%);
+    cursor: pointer;
+    box-shadow: hsl(51, 100%, 45%) 0 0 10px 10px;
+    font-size: x-large;
+
 }
