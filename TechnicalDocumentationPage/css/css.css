@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body{
+    font-family: 'Patua One', cursive;
+    background: url("https://archive.briankoberlein.com/wp-content/uploads/Speed_Of_Light_by_FX_1988.jpg") fixed center;
+    background-size: cover;
+    margin: 0;
+}
+header{font-size: 48px;}
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(192, 192, 192, 0.75);
+    padding: 22px;
+    border-right: #3e3e3e dashed 1px;
+}
+section{
+    border-bottom: #3e3e3e dashed 1px;
+}
+#wrapper{
+    display:flex;
+    flex-direction: row;
+}
+#main-doc{
+    background-color: rgba(192, 192, 192, 0.75);
+    padding: 22px;
+}
+@media screen and (max-width: 768px){
+    nav{display: none;}
+}
