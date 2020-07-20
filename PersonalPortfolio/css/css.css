@@ -5,6 +5,7 @@ body{
     background: url("http://www.allwhitebackground.com/images/6/3D-Background-Free-Picture.png") center fixed;
     background-size: cover;
     margin: 0;
+    scroll-behavior: smooth;
 }
 #wrapper{
     /*width: 100%;*/
